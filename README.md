@@ -52,4 +52,5 @@ If you find some plugin that you used is not yet supported, you are welcome to p
 | [tailwindcss-hero-patterns](https://github.com/svengau/tailwindcss-hero-patterns) | A simple tailwind plugin to display [Hero Patterns](http://www.heropatterns.com/) | `transform('tailwindcss-hero-patterns')` |
 | [tailwindcss-animate.css](https://github.com/bentzibentz/tailwindcss-animate.css) | [Animate CSS](https://github.com/animate-css/animate.css) plugin | `require('@windicss/animations')` |
 | [tailwindcss-truncate-multiline](https://github.com/jhta/tailwindcss-truncate-multiline) | Tailwind CSS plugin to generate truncate multiline utilities | `transform('tailwindcss-truncate-multiline')` |
+| [tailwindcss-blend-mode](https://github.com/hacknug/tailwindcss-blend-mode) | Blend-mode utilities for Tailwind CSS. | `transform('tailwindcss-blend-mode')` |
 

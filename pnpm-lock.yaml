@@ -15,6 +15,8 @@ devDependencies:
   sucrase: 3.17.1
   tailwind-heropatterns: 0.0.8
   tailwind-scrollbar: 1.0.2
+  tailwindcss-blend-mode: 1.0.0
+  tailwindcss-fluid: 0.2.0
   tailwindcss-hero-patterns: 0.0.1
   tailwindcss-truncate-multiline: 1.0.3
   typescript: 4.2.2
@@ -300,6 +302,13 @@ packages:
       node: '>=0.8.0'
     resolution:
       integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+  /flat/4.1.1:
+    dependencies:
+      is-buffer: 2.0.5
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-FmTtBsHskrU6FJ2VxCnsDb84wu9zhmO3cUX2kGFb5tuwhfXxGciiT0oRY+cck35QmG+NmGh5eLz6lLCpWTqwpA==
   /fs-extra/8.1.0:
     dependencies:
       graceful-fs: 4.2.6
@@ -389,6 +398,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==
+  /is-buffer/2.0.5:
+    dev: true
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==
   /is-core-module/2.2.0:
     dependencies:
       has: 1.0.3
@@ -714,6 +729,17 @@ packages:
     dev: true
     resolution:
       integrity: sha512-eTpqIx6kbOmEtwitFtUED9V3Ga+ARn8O/tWZle0OteySRDNPtl1+9IMAaD327K576BHA3r12qg0kjUEjAZp05A==
+  /tailwindcss-blend-mode/1.0.0:
+    dependencies:
+      flat: 4.1.1
+      lodash: 4.17.21
+    dev: true
+    resolution:
+      integrity: sha512-O73Kp4xe89tzStNBc28cTBuEhX6rpxytTzk/51XilHFUbv66o9IAZH0pCQhClYjiMjEpMFgdhg/h1CJkm4qkkQ==
+  /tailwindcss-fluid/0.2.0:
+    dev: true
+    resolution:
+      integrity: sha512-xaxvJp4/0/GGhF/nO4tn6v2Wb0LL/8Bo+O0G45FjuEsl+7m4Rrz/J+xbCoglHbGBFhl1XWGgyTjRZCY+UdLtuw==
   /tailwindcss-hero-patterns/0.0.1:
     dependencies:
       autoprefixer: 9.8.6
@@ -842,6 +868,8 @@ specifiers:
   sucrase: ^3.17.1
   tailwind-heropatterns: ^0.0.8
   tailwind-scrollbar: ^1.0.2
+  tailwindcss-blend-mode: ^1.0.0
+  tailwindcss-fluid: ^0.2.0
   tailwindcss-hero-patterns: ^0.0.1
   tailwindcss-truncate-multiline: ^1.0.3
   typescript: ^4.2.2
