@@ -18,5 +18,14 @@ describe('modules', () => {
       ]
     });
     expect(processor.interpret('animate-fadeIn animate-ping animate-delay-2s animate-shakeY animate-animated').styleSheet.build()).toMatchSnapshot('css');
-  })
+  });
+
+  it('tailwindcss-question-mark', () => {
+    const processor = new Processor({
+      plugins: [
+        require('../../packages/tailwindcss-question-mark'),
+      ]
+    });
+    expect(processor.interpret('? bg-white').styleSheet.build()).toMatchSnapshot('css');
+  });
 })

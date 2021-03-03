@@ -1,5 +1,5 @@
 import { Processor } from 'windicss/lib';
-import { transform } from '../../packages/transformer';
+import { transform } from '../../utils/transformer';
 
 describe('transform', () => {
   it('tailwind-scrollbar', () => {

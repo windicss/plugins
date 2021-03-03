@@ -84,3 +84,28 @@ transform / tailwindcss-animate / css / 0: |-
     animation-duration: 1000ms;
     animation-fill-mode: both;
   }
+transform / tailwindcss-question-mark / css / 0: |-
+  @keyframes question {
+    0% {
+      box-shadow: inset 4px 4px rgb(236, 15, 170), inset -4px -4px rgb(236, 15, 170);
+    }
+    100% {
+      box-shadow: inset 8px 8px rgb(236, 15, 170), inset -8px -8px rgb(236, 15, 170);
+    }
+  }
+  @-webkit-keyframes question {
+    0% {
+      box-shadow: inset 4px 4px rgb(236, 15, 170), inset -4px -4px rgb(236, 15, 170);
+    }
+    100% {
+      box-shadow: inset 8px 8px rgb(236, 15, 170), inset -8px -8px rgb(236, 15, 170);
+    }
+  }
+  .bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  }
+  .\? {
+    -webkit-animation: question 0.5s ease-in-out alternate infinite;
+    animation: question 0.5s ease-in-out alternate infinite;
+  }
