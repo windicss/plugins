@@ -1,7 +1,7 @@
 import { resolve } from 'path';
 import { addHook } from 'pirates';
 
-function convert(code: string): string {
+export function convert(code: string): string {
   const map = {
     '@tailwindcss\\/typography': 'windicss/dist/plugin/typography',
     '@tailwindcss\\/forms': 'windicss/plugin/forms',
@@ -19,7 +19,7 @@ function convert(code: string): string {
   return code;
 }
 
-function transform(path: string): string {
+export function transform(path: string): string {
   const matcher = (filename: string) => true;
   const revert = addHook(
     (code, filename) => matcher(filename) ? convert(code) : code,

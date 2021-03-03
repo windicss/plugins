@@ -15,4 +15,5 @@
     "resolveJsonModule": true
   },
   "include": ["./src"],
+  "exclude": ["./test/helpers"]
 }
