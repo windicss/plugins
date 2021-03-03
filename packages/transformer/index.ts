@@ -3,7 +3,7 @@ import { addHook } from 'pirates';
 
 export function convert(code: string): string {
   const map = {
-    '@tailwindcss\\/typography': 'windicss/dist/plugin/typography',
+    '@tailwindcss\\/typography': 'windicss/plugin/typography',
     '@tailwindcss\\/forms': 'windicss/plugin/forms',
     '@tailwindcss\\/aspect-ratio': 'windicss/plugin/aspect-ratio',
     '@tailwindcss\\/line-clamp': 'windicss/plugin/line-clamp',

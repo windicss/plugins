@@ -2,7 +2,9 @@ dependencies:
   pirates: 4.0.1
   windicss: 2.2.2
 devDependencies:
+  '@types/fs-extra': 9.0.8
   '@types/jasmine': 3.6.4
+  '@types/js-yaml': 4.0.0
   '@types/node': 14.14.31
   chalk: 4.1.0
   diff: 5.0.0
@@ -14,10 +16,20 @@ devDependencies:
   typescript: 4.2.2
 lockfileVersion: 5.2
 packages:
+  /@types/fs-extra/9.0.8:
+    dependencies:
+      '@types/node': 14.14.31
+    dev: true
+    resolution:
+      integrity: sha512-bnlTVTwq03Na7DpWxFJ1dvnORob+Otb8xHyUqUWhqvz/Ksg8+JXPlR52oeMSZ37YEOa5PyccbgUNutiQdi13TA==
   /@types/jasmine/3.6.4:
     dev: true
     resolution:
       integrity: sha512-CTdMERA4iGNcxeqzD7pavb4WLIFq6bGnx6nIJD+1D4Knx24GE6QBPrWVhO8UlIy7gf7rbIt3ZD7iIzryRD2TgA==
+  /@types/js-yaml/4.0.0:
+    dev: true
+    resolution:
+      integrity: sha512-4vlpCM5KPCL5CfGmTbpjwVKbISRYhduEJvvUWsH5EB7QInhEj94XPZ3ts/9FPiLZFqYO0xoW4ZL8z2AabTGgJA==
   /@types/node/14.14.31:
     dev: true
     resolution:
@@ -291,7 +303,9 @@ packages:
     resolution:
       integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 specifiers:
+  '@types/fs-extra': ^9.0.8
   '@types/jasmine': ^3.6.4
+  '@types/js-yaml': ^4.0.0
   '@types/node': ^14.14.31
   chalk: ^4.1.0
   diff: ^5.0.0

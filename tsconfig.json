@@ -14,6 +14,6 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   },
-  "include": ["./src"],
+  "include": ["./packages"],
   "exclude": ["./test/helpers"]
 }
