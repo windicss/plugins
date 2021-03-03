@@ -1,0 +1,4 @@
+.nyc_output
+.DS_Store
+Thumbs.db
+node_modules
