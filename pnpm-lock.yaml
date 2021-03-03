@@ -1,6 +1,5 @@
 dependencies:
   pirates: 4.0.1
-  windicss: 2.2.2
 devDependencies:
   '@types/fs-extra': 9.0.8
   '@types/jasmine': 3.6.4
@@ -17,6 +16,7 @@ devDependencies:
   tailwind-scrollbar: 1.0.2
   tailwindcss-hero-patterns: 0.0.1
   typescript: 4.2.2
+  windicss: 2.2.5
 lockfileVersion: 5.2
 packages:
   /@fullhuman/postcss-purgecss/2.3.0:
@@ -797,13 +797,13 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
-  /windicss/2.2.2:
-    dev: false
+  /windicss/2.2.5:
+    dev: true
     engines:
       node: '>= 12'
     hasBin: true
     resolution:
-      integrity: sha512-+yOlyx+j3/MJaoqhZb6BjjXnGMJcIdjaKs8cIYXkCr5t/wJLFBS35uDrqxo31IaSHOo/gtw+fcMyw8D+3oq6qg==
+      integrity: sha512-1EoJu/T9Uwg3odSkav2r2uiAX50/sKeYDH8sY1CAmqXEF5rGlyZUiQkUYTn4pEqUbQz2NnA5ztuTL/0nbCG3Jg==
   /wrappy/1.0.2:
     dev: true
     resolution:
@@ -831,4 +831,4 @@ specifiers:
   tailwind-scrollbar: ^1.0.2
   tailwindcss-hero-patterns: ^0.0.1
   typescript: ^4.2.2
-  windicss: ^2.2.2
+  windicss: ^2.2.5

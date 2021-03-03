@@ -27,7 +27,7 @@ module.exports = {
 
 ### Sub Module
 
-However [windicss](https://github.com/windicss/windicss) abandoned postcss for some other benefits, but we will also lose support for the postcss interface. Therefore, for this type of plugin, we will simpily fork the code, make some modification, and republish it as a submodule of `@windicss/...`.
+However [windicss](https://github.com/windicss/windicss) abandoned postcss for some benefits, and we will also lose support for the postcss interface. Therefore, for this type of plugin, we will simpily fork the code, make some modification, and republish it as a submodule of `@windicss/...`.
 
 ```js
 // windi.config.js
@@ -47,8 +47,8 @@ If you find some plugin that you used is not yet supported, you are welcome to p
 ### Plugin List
 
 | Plugin                    | Description                                                  | Support       | Origin                                               |
-| ------------------------- | ------------------------------------------------------------ | ------------- | ---------------------------------------------------- |
+| ------------------------- | ------------------------------------------------------------ | :------------: | ---------------------------------------------------- |
 | tailwind-scrollbar        | Adds styling utilities for scrollbars in Firefox and webkit-based browsers. | ???           | https://github.com/adoxography/tailwind-scrollbar    |
-| tailwindcss-hero-patterns | A simple tailwind plugin to display [Hero Patterns](http://www.heropatterns.com/) by [@steveschoger](https://twitter.com/steveschoger). | Transform API | https://github.com/svengau/tailwindcss-hero-patterns |
-|                           |                                                              |               |                                                      |
+| tailwindcss-hero-patterns | A simple tailwind plugin to display [Hero Patterns](http://www.heropatterns.com/) | Transform API<br>`transform('tailwindcss-hero-patterns')` | https://github.com/svengau/tailwindcss-hero-patterns |
+| tailwindcss-animate.css | [Animate CSS](https://github.com/animate-css/animate.css) plugin | SubModule<br>`require('@windicss/animations')` | https://github.com/bentzibentz/tailwindcss-animate.css   |
 

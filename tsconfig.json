@@ -15,5 +15,5 @@
     "resolveJsonModule": true
   },
   "include": ["./packages", "./test"],
-  "exclude": ["./test/helpers"]
+  "exclude": ["./test/helpers", "./packages/tailwindcss-animate.css"]
 }

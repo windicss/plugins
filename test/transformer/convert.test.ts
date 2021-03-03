@@ -1,4 +1,4 @@
-import { convert, transform } from '../../packages/transformer';
+import { convert } from '../../packages/transformer';
 
 describe('convert', () => {
   it('convert code', () => {
