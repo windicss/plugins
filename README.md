@@ -46,9 +46,9 @@ If you find some plugin that you used is not yet supported, you are welcome to p
 
 ### Plugin List
 
-| Plugin                    | Description                                                  | Support       | Origin                                               |
-| ------------------------- | ------------------------------------------------------------ | :------------: | ---------------------------------------------------- |
-| tailwind-scrollbar        | Adds styling utilities for scrollbars in Firefox and webkit-based browsers. | ???           | https://github.com/adoxography/tailwind-scrollbar    |
-| tailwindcss-hero-patterns | A simple tailwind plugin to display [Hero Patterns](http://www.heropatterns.com/) | Transform API<br>`transform('tailwindcss-hero-patterns')` | https://github.com/svengau/tailwindcss-hero-patterns |
-| tailwindcss-animate.css | [Animate CSS](https://github.com/animate-css/animate.css) plugin | SubModule<br>`require('@windicss/animations')` | https://github.com/bentzibentz/tailwindcss-animate.css   |
+| Plugin                    | Description                                                  | Support       |
+| ------------------------- | ------------------------------------------------------------ | :------------: |
+| [tailwind-scrollbar](https://github.com/adoxography/tailwind-scrollbar) | Adds styling utilities for scrollbars in Firefox and webkit-based browsers. | ???           |     |
+| [tailwindcss-hero-patterns](https://github.com/svengau/tailwindcss-hero-patterns) | A simple tailwind plugin to display [Hero Patterns](http://www.heropatterns.com/) | Transform API<br>`transform('tailwindcss-hero-patterns')` |
+| [tailwindcss-animate.css](https://github.com/bentzibentz/tailwindcss-animate.css) | [Animate CSS](https://github.com/animate-css/animate.css) plugin | SubModule<br>`require('@windicss/animations')` |
 
