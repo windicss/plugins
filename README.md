@@ -43,7 +43,7 @@ If you find some plugin that you used is not yet supported, you are welcome to p
 ## Plugin List
 
 | Plugin                    | Description                                                  | Support       |
-| ------------------------- | ------------------------------------------------------------ | :------------: |
+| :------------------------ | :----------------------------------------------------------- | :------------ |
 | [tailwind-scrollbar](https://github.com/adoxography/tailwind-scrollbar) | Adds styling utilities for scrollbars in Firefox and webkit-based browsers. | ???           |     |
 | [tailwindcss-hero-patterns](https://github.com/svengau/tailwindcss-hero-patterns) | A simple tailwind plugin to display [Hero Patterns](http://www.heropatterns.com/) | `transform('tailwindcss-hero-patterns')` |
 | [tailwindcss-animate.css](https://github.com/bentzibentz/tailwindcss-animate.css) | [Animate CSS](https://github.com/animate-css/animate.css) plugin | `require('@windicss/animations')` |
