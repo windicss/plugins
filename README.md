@@ -1,14 +1,10 @@
-# Awesome Windi CSS
+# Windi CSS Plugins
 
-Awesome things related to [Windi CSS](https://github.com/windicss/windicss)
+Collection of plugins for [Windi CSS](https://github.com/windicss/windicss).
 
-## Plugins
+## Transform API
 
-### Transform API
-
-We will collect plug-ins that can be used in [windicss](https://github.com/windicss/windicss) here. For tailwind plugins, we generally use Transform API to support them.
-
-You can import them to your config like below:
+For tailwind plugins, we generally use Transform API to support them. You can import them to your config like below:
 
 ```js
 // windi.config.js
@@ -25,7 +21,7 @@ module.exports = {
 }
 ```
 
-### Sub Module
+## Sub Module
 
 However [windicss](https://github.com/windicss/windicss) abandoned postcss for some benefits, and we will also lose support for the postcss interface. Therefore, for this type of plugin, we will simpily fork the code, make some modification, and republish it as a submodule of `@windicss/...`.
 
@@ -44,7 +40,7 @@ module.exports = {
 
 If you find some plugin that you used is not yet supported, you are welcome to post an issue or pull request, and we will support it soon.
 
-### Plugin List
+## Plugin List
 
 | Plugin                    | Description                                                  | Support       |
 | ------------------------- | ------------------------------------------------------------ | :------------: |
