@@ -1,5 +1,5 @@
 import { Processor } from 'windicss/lib';
-import { transform } from '../../utils/transformer';
+import { transform } from 'windicss/helpers';
 
 describe('transform', () => {
   it('tailwind-scrollbar', () => {
@@ -98,4 +98,14 @@ it("tailwindcss-blend-mode", () => {
     ]
   });
   expect(processor.interpret('blend-normal blend-screen bg-blend-difference isolation-auto').styleSheet.build()).toMatchSnapshot('css');
+})
+
+// need to support add config on colors
+it('tailwind-nord', () => {
+  const processor = new Processor({
+    plugins: [
+      transform('tailwind-nord'),
+    ]
+  });
+  expect(processor.interpret('bg-nord0 text-nord6').styleSheet.build()).toMatchSnapshot('css');
 })

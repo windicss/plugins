@@ -35,12 +35,13 @@
     "js-yaml": "^4.0.0",
     "sucrase": "^3.17.1",
     "tailwind-heropatterns": "^0.0.8",
+    "tailwind-nord": "^1.2.0",
     "tailwind-scrollbar": "^1.0.2",
     "tailwindcss-blend-mode": "^1.0.0",
     "tailwindcss-fluid": "^0.2.0",
     "tailwindcss-hero-patterns": "^0.0.1",
     "tailwindcss-truncate-multiline": "^1.0.3",
     "typescript": "^4.2.2",
-    "windicss": "^2.2.6"
+    "windicss": "^2.2.7"
   }
 }

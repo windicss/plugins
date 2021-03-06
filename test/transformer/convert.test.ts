@@ -1,4 +1,4 @@
-import { convert } from '../../utils/transformer';
+import { convert } from 'windicss/helpers';
 
 describe('convert', () => {
   it('convert code', () => {

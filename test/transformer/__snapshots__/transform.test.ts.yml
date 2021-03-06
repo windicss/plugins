@@ -1,3 +1,4 @@
+transform / tailwind-nord / css / 0: ''
 transform / tailwind-scrollbar / css / 0: |-
   .scrollbar {
     --scrollbar-track: initial;
