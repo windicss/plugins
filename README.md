@@ -38,7 +38,7 @@ module.exports = {
 }
 ```
 
-If you find some plugin that you used is not yet supported, you are welcome to post an issue or pull request, and we will support it soon.
+If you find some plugin that you used is not yet supported, you are welcome to **post an issue or pull request**, and we will support it soon.
 
 ## Plugin List
 
