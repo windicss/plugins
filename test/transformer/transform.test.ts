@@ -2,15 +2,6 @@ import { Processor } from 'windicss/lib';
 import { transform } from 'windicss/helpers';
 
 describe('transform', () => {
-  it('tailwind-scrollbar', () => {
-    const processor = new Processor({
-      plugins: [
-        transform("tailwind-scrollbar"),
-      ]
-    });
-    expect(processor.interpret('scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100').styleSheet.build()).toMatchSnapshot("css");
-  });
-
   it('tailwindcss-hero-patterns', () => {
     const processor = new Processor({
       plugins: [
@@ -40,54 +31,23 @@ describe('transform', () => {
     expect(processor.interpret('truncate-3-lines truncate-5-lines').styleSheet.build()).toMatchSnapshot('css');
   })
 
-  // it('tailwindcss-fluid', () => {
-  //   const processor = new Processor({
-  //     plugins: [
-  //       transform('tailwindcss-fluid')({
-  //         textSizes: {
-  //           sm: {
-  //             min: '14px',
-  //             max: '20px',
-  //             minvw: '320px',
-  //             maxvw: '1400px'
-  //           }
-  //         }
-  //       })
-  //     ]
-  //   });
-  //   expect(processor.interpret('text-sm-fluid').styleSheet.build()).toMatchSnapshot('css');
-  // });
-
-  // it('tailwind-heropatterns', () => {
-  //   const processor = new Processor({
-  //     plugins: [
-  //       transform("tailwind-heropatterns")({
-  //         // as per tailwind docs you can pass variants
-  //         variants: [],
-        
-  //         // the list of patterns you want to generate a class for
-  //         // the names must be in kebab-case
-  //         // an empty array will generate all 87 patterns
-  //         patterns: ["polka-dots", "signal"],
-        
-  //         // The foreground colors of the pattern
-  //         colors: {
-  //           default: "#9C92AC",
-  //           "blue-dark": "#000044" //also works with rgb(0,0,205)
-  //         },
-        
-  //         // The foreground opacity
-  //         opacity: {
-  //           default: "0.4",
-  //           "100": "1.0"
-  //         }
-  //       })
-  //     ]
-  //   });
-  //   // console.log(processor._plugin.static)
-
-  //   expect(processor.interpret('bg-hero-polka-dots-100 bg-hero-signal bg-hero-polka-dots-blue-dark-100').styleSheet.build()).toMatchSnapshot('css');
-  // })
+  it('tailwindcss-fluid', () => {
+    const processor = new Processor({
+      plugins: [
+        transform('tailwindcss-fluid')({
+          textSizes: {
+            sm: {
+              min: '14px',
+              max: '20px',
+              minvw: '320px',
+              maxvw: '1400px'
+            }
+          }
+        })
+      ]
+    });
+    expect(processor.interpret('text-sm-fluid').styleSheet.build()).toMatchSnapshot('css');
+  });
 })
 
 
@@ -108,4 +68,48 @@ it('tailwind-nord', () => {
     ]
   });
   expect(processor.interpret('bg-nord0 text-nord6').styleSheet.build()).toMatchSnapshot('css');
+})
+
+it('tailwind-color-vars', () => {
+  const processor = new Processor({
+    plugins: [
+      transform('tailwind-color-vars')({
+        colors: {
+          'primary': 'rgba(0, 80, 200, 0.7)',
+          'black': 'black',
+        },
+        // default value, this will give passed values priority
+        strategy: 'override',  
+      })
+    ]
+  });
+  expect(processor.preflight(undefined, false, false, true).build()).toMatchSnapshot('css');
+})
+
+it('tailwindcss-triangle-after', () => {
+  const colors = {
+    blue: '#1c1c1e',
+    'blue-darker': '#1c1c1c',
+  };
+  const processor = new Processor({
+    plugins: [
+      transform('tailwindcss-triangle-after')({
+        triangles: {
+          select: {
+            color: colors['blue'],
+            direction: 'down',
+            size: [10, 6],
+          },
+          next: {
+            color: colors['blue-darker'],
+            direction: 'right',
+            right: '2rem',
+            top: '3rem',
+            size: 12
+          }
+        },
+      }),
+    ]
+  })
+  expect(processor.interpret('triangle-after-select triangle-after-next').styleSheet.build()).toMatchSnapshot('css');
 })
