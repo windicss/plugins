@@ -155,3 +155,14 @@ it('tailwindcss-elevation', () => {
   });
   expect(processor.interpret('elevation-0 elevation-2 elevation-21').styleSheet.build()).toMatchSnapshot('css');
 })
+
+it('tailwind-bootstrap-grid', () => {
+  const processor = new Processor({
+    plugins: [
+      transform('tailwind-bootstrap-grid')({
+        containerMaxWidths: { sm: '540px', md: '720px', lg: '960px', xl: '1140px' },
+      }),
+    ]
+  })
+  expect(processor.interpret('container row col col-6 md:col-auto').styleSheet.build()).toMatchSnapshot('css');
+})
