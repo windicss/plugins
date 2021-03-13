@@ -113,3 +113,21 @@ it('tailwindcss-triangle-after', () => {
   })
   expect(processor.interpret('triangle-after-select triangle-after-next').styleSheet.build()).toMatchSnapshot('css');
 })
+
+it('tailwindcss-gradients', () => {
+  const processor = new Processor({
+    theme: {
+      colors: {
+        'red': '#f00',
+        'blue': '#00f',
+      },
+      linearGradientColors: theme => theme('colors'),
+      radialGradientColors: theme => theme('colors'),
+      conicGradientColors: theme => theme('colors'),
+    },
+    plugins: [
+      transform('tailwindcss-gradients'),
+    ]
+  });
+  expect(processor.interpret('bg-gradient-tl-red bg-radial-br-red bg-conic-tr-red').styleSheet.build()).toMatchSnapshot('css');
+});
