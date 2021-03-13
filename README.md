@@ -44,11 +44,11 @@ module.exports = {
 
 | Plugin                    | Description                                                  | Support       |
 | :------------------------ | :----------------------------------------------------------- | :------------ |
-| [tailwind-scrollbar](https://github.com/adoxography/tailwind-scrollbar) | Adds styling utilities for scrollbars in Firefox and webkit-based browsers. | `require('@windicss/plugin-scrollbar')` |
-| [tailwindcss-animate.css](https://github.com/bentzibentz/tailwindcss-animate.css) | [Animate CSS](https://github.com/animate-css/animate.css) plugin | `require('@windicss/plugin-animations')` |
-| [tailwindcss-question-mark](https://github.com/GavinJoyce/tailwindcss-question-mark) | A plugin that provides a helpful ? dev time utility. | `require('@windicss/plugin-question-mark')` |
-| [tailwind-heropatterns](https://github.com/AndreaMinato/tailwind-heropatterns) | Streamlined integration between tailwindcss and heropatterns.com | `require('@windicss/plugin-heropatterns')` |
-| [tailwindcss-interaction-variants](https://github.com/benface/tailwindcss-interaction-variants) | add some missing interaction state variants | `require('@windicss/plugin-interaction-variants')` |
+| [animations](https://github.com/windicss/plugins/tree/main/packages/animations) | [Animate CSS](https://github.com/animate-css/animate.css) plugin | `require('@windicss/plugin-animations')` |
+| [scrollbar](https://github.com/windicss/plugins/tree/main/packages/scrollbar) | Adds styling utilities for scrollbars in Firefox and webkit-based browsers. | `require('@windicss/plugin-scrollbar')` |
+| [question-mark](https://github.com/windicss/plugins/tree/main/packages/question-mark) | A plugin that provides a helpful ? dev time utility. | `require('@windicss/plugin-question-mark')` |
+| [heropatterns](https://github.com/windicss/plugins/tree/main/packages/heropatterns) | Streamlined integration between tailwindcss and heropatterns.com | `require('@windicss/plugin-heropatterns')` |
+| [interaction-variants](https://github.com/windicss/plugins/tree/main/packages/interaction-variants) | add some missing interaction state variants | `require('@windicss/plugin-interaction-variants')` |
 | [tailwindcss-hero-patterns](https://github.com/svengau/tailwindcss-hero-patterns) | A simple tailwind plugin to display [Hero Patterns](http://www.heropatterns.com/) | `transform('tailwindcss-hero-patterns')` |
 | [tailwindcss-fluid](https://github.com/bradlc/tailwindcss-fluid) | Fluid utilities for Tailwind CSS | `transform('tailwindcss-fluid')` |
 | [tailwindcss-truncate-multiline](https://github.com/jhta/tailwindcss-truncate-multiline) | Tailwind CSS plugin to generate truncate multiline utilities | `transform('tailwindcss-truncate-multiline')` |

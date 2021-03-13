@@ -1,25 +1,24 @@
 {
-  "name": "@windicss/animations",
+  "name": "@windicss/plugin-animations",
   "version": "1.0.8",
-  "description": "Add Animate CSS as Tailwind CSS plugin to your project.",
+  "description": "Add Animate CSS as Windi CSS plugin to your project.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bentzibentz/tailwindcss-animate.css.git"
+    "url": "https://github.com/windicss/plugins/tree/main/packages/animations"
   },
   "keywords": [
-    "tailwind",
-    "tailwindcss",
+    "windicss",
     "animatecss",
     "animate.css",
     "css",
     "awesome",
     "awesome-list"
   ],
-  "author": "Fabian Bentz",
+  "author": "Veritas Raven",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bentzibentz/tailwindcss-animate.css/issues"
+    "url": "https://github.com/windicss/plugins/issues"
   },
-  "homepage": "https://github.com/bentzibentz/tailwindcss-animate.css#readme"
+  "homepage": "https://github.com/windicss/plugins/tree/main/packages/animations"
 }

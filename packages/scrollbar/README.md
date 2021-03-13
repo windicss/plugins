@@ -1,25 +1,19 @@
-# Scrollbar Plugin for Tailwind CSS
-![Tests](https://github.com/adoxography/tailwind-scrollbar/workflows/Tests/badge.svg)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/af892fe4afc048c4860462c5fc736675)](https://www.codacy.com/gh/adoxography/tailwind-scrollbar/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=adoxography/tailwind-scrollbar&amp;utm_campaign=Badge_Grade)
+# @windicss/plugin-scrollbar
 
-Adds styling utilities for scrollbars in Firefox and webkit-based browsers.
+Adds styling utilities for scrollbars in Firefox and webkit-based browsers. This plugin is modified based on [tailwind-scrollbar](https://github.com/adoxography/tailwind-scrollbar) to adapt to Windi CSS.
 
 ## Installation
 
 ```bash
-yarn add -D tailwind-scrollbar
-```
-or
-```bash
-npm install --save-dev tailwind-scrollbar
+npm install --save-dev @windicss/plugin-scrollbar
 ```
 
-Add it to the plugins array of your Tailwind config.
+Add it to the plugins array of your Config File.
 
 ```js
 plugins: [
     // ...
-    require('tailwind-scrollbar'),
+    require('@windicss/plugin-scrollbar'),
 ],
 ```
 

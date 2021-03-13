@@ -1,11 +1,11 @@
 {
-  "name": "tailwind-scrollbar",
+  "name": "@windicss/plugin-scrollbar",
   "version": "1.2.3",
-  "description": "Tailwind plugin for styling scrollbars",
-  "author": "Graham Still <graham@gstill.dev>",
+  "description": "Windi CSS plugin for styling scrollbars",
+  "author": "Veritas Raven",
   "main": "index.js",
-  "repository": "https://github.com/adoxography/tailwind-scrollbar",
-  "homepage": "https://github.com/adoxography/tailwind-scrollbar",
+  "repository": "https://github.com/windicss/plugins/tree/main/packages/scrollbar",
+  "homepage": "https://github.com/windicss/plugins/tree/main/packages/scrollbar",
   "license": "MIT",
   "private": false,
   "scripts": {

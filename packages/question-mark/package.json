@@ -1,19 +1,16 @@
 {
-  "name": "tailwindcss-question-mark",
+  "name": "@windicss/plugin-question-mark",
   "version": "0.1.0",
-  "description": "A plugin that provides a helpful `?` dev time utilit",
+  "description": "A plugin that provides a helpful `?` dev time utility",
   "main": "src/index.js",
   "license": "MIT",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GavinJoyce/tailwindcss-question-mark.git"
+    "url": "https://github.com/windicss/plugins/tree/main/packages/question-mark"
   },
-  "author": "Gavin Joyce",
+  "author": "Veritas Raven",
   "bugs": {
-    "url": "https://github.com/GavinJoyce/tailwindcss-question-mark/issues"
+    "url": "https://github.com/windicss/plugins/issues"
   },
-  "homepage": "https://github.com/GavinJoyce/tailwindcss-question-mark#readme"
+  "homepage": "https://github.com/windicss/plugins/tree/main/packages/question-mark"
 }

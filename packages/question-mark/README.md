@@ -1,6 +1,6 @@
-# tailwindcss-question-mark
+# @windicss/plugin-question-mark
 
-A plugin that provides a helpful `?` dev time utility.
+A plugin that provides a helpful `?` dev time utility. This plugin is modified based on [tailwindcss-question-mark](https://github.com/GavinJoyce/tailwindcss-question-mark) to adapt to Windi CSS.
 
 **Demo**: https://play.tailwindcss.com/5a9dYkfqd4
 
@@ -11,11 +11,7 @@ A plugin that provides a helpful `?` dev time utility.
 Install the plugin from npm:
 
 ```sh
-# Using npm
-npm install tailwindcss-question-mark
-
-# Using Yarn
-yarn add tailwindcss-question-mark
+npm install --save-dev @windicss/plugin-question-mark
 ```
 
 Then add the plugin to your `tailwind.config.js` file:
@@ -27,7 +23,7 @@ module.exports = {
     // ...
   },
   plugins: [
-    require('tailwindcss-question-mark'),
+    require('@windicss/plugin-question-mark'),
     // ...
   ],
 }

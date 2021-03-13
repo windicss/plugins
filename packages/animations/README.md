@@ -1,4 +1,5 @@
-# Windi CSS Animations
+# @windicss/plugin-animations
+
 Add [Animate CSS](https://github.com/animate-css/animate.css) as [Windi CSS](https://github.com/windicss/windicss) plugin to your project. This plugin is modified based on [tailwind-animate.css](https://github.com/bentzibentz/tailwindcss-animate.css) to adapt to Windi CSS.
 
 ## Installation

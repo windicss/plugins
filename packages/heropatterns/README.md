@@ -1,26 +1,21 @@
-# tailwind-heropatterns
+# @windicss/plugin-heropatterns
+
+Streamlined integration between windicss and heropatterns. This plugin is modified based on [tailwind-heropatterns](https://github.com/AndreaMinato/tailwind-heropatterns) to adapt to Windi CSS.
 
 ## Installation
 
 Add this plugin to your project:
 
 ```bash
-# Install via npm
-npm install --save-dev tailwind-heropatterns
-
-# or yarn
-yarn add tailwind-heropatterns --dev
+npm install --save-dev @windicss/plugin-heropatterns
 ```
 
 ## Usage
 
-The tailwind heropatterns plugin exposes some options to configure the generated classes. Here is the example for adding it to your project plugins
+The heropatterns plugin exposes some options to configure the generated classes. Here is the example for adding it to your project plugins
 
 ```js
-require("tailwind-heropatterns")({
-  // as per tailwind docs you can pass variants
-  variants: [],
-
+require("@windicss/plugin-heropatterns")({
   // the list of patterns you want to generate a class for
   // the names must be in kebab-case
   // an empty array will generate all 87 patterns
@@ -81,8 +76,7 @@ As you can see when you use the `default` key for colors or opacity it is omitte
 So the following configuration:
 
 ```js
-require("tailwind-heropatterns")({
-  variants: [],
+require("@windicss/plugin-heropatterns")({
   patterns: ["polka-dots", "signal"],
   colors: {
     default: "#9C92AC"
@@ -111,7 +105,6 @@ And it will generate alle the patterns with the default color of [heropatterns.c
 
 ```js
 config = {
-  variants: [],
   patterns: [],
   colors: {
     default: "#9C92AC"
