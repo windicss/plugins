@@ -47,16 +47,16 @@ module.exports = {
 | [animations](https://github.com/windicss/plugins/tree/main/packages/animations) | [Animate CSS](https://github.com/animate-css/animate.css) plugin | `require('@windicss/plugin-animations')` |
 | [scrollbar](https://github.com/windicss/plugins/tree/main/packages/scrollbar) | Adds styling utilities for scrollbars in Firefox and webkit-based browsers. | `require('@windicss/plugin-scrollbar')` |
 | [question-mark](https://github.com/windicss/plugins/tree/main/packages/question-mark) | A plugin that provides a helpful ? dev time utility. | `require('@windicss/plugin-question-mark')` |
-| [heropatterns](https://github.com/windicss/plugins/tree/main/packages/heropatterns) | Streamlined integration between tailwindcss and heropatterns.com | `require('@windicss/plugin-heropatterns')` |
+| [heropatterns](https://github.com/windicss/plugins/tree/main/packages/heropatterns) | Streamlined integration between windicss and heropatterns.com | `require('@windicss/plugin-heropatterns')` |
 | [interaction-variants](https://github.com/windicss/plugins/tree/main/packages/interaction-variants) | add some missing interaction state variants | `require('@windicss/plugin-interaction-variants')` |
-| [tailwindcss-hero-patterns](https://github.com/svengau/tailwindcss-hero-patterns) | A simple tailwind plugin to display [Hero Patterns](http://www.heropatterns.com/) | `transform('tailwindcss-hero-patterns')` |
-| [tailwindcss-fluid](https://github.com/bradlc/tailwindcss-fluid) | Fluid utilities for Tailwind CSS | `transform('tailwindcss-fluid')` |
-| [tailwindcss-truncate-multiline](https://github.com/jhta/tailwindcss-truncate-multiline) | Tailwind CSS plugin to generate truncate multiline utilities | `transform('tailwindcss-truncate-multiline')` |
-| [tailwindcss-blend-mode](https://github.com/hacknug/tailwindcss-blend-mode) | Blend-mode utilities for Tailwind CSS. | `transform('tailwindcss-blend-mode')` |
-| [tailwind-color-vars](https://github.com/n1kk/tailwind-color-vars) | Tailwind plugin to generate css vars '--color-name' for colors list. | `transform('tailwind-color-vars')` |
-| [tailwindcss-triangle-after](https://github.com/chrisrowe/tailwindcss-triangle-after) | Tailwind plugin to generate css vars '--color-name' for colors list. | `transform('tailwindcss-triangle-after')` |
-| [tailwindcss-gradients](https://github.com/benface/tailwindcss-gradients) | generate gradient background utilities | `transform('tailwindcss-gradients')` |
-| [tailwind-nord](https://github.com/crumb1e/tailwind-nord) | enables the use of the Nord color palette. | `transform('tailwind-nord')` |
-| [tailwindcss-border-gradients](https://github.com/cossssmin/tailwindcss-border-gradients) | generate border image gradient utilities. | `transform('tailwindcss-border-gradients')` |
-| [tailwindcss-elevation](https://github.com/jonaskay/tailwindcss-elevation) | Add Material Components elevation classes | `transform('tailwindcss-elevation')` |
-| [tailwind-bootstrap-grid](https://github.com/karolis-sh/tailwind-bootstrap-grid) | generates Bootstrap's flexbox grid | `transform('tailwind-bootstrap-grid')` |
+| [hero-patterns](https://github.com/svengau/tailwindcss-hero-patterns) | A simple plugin to display [Hero Patterns](http://www.heropatterns.com/) | `transform('tailwindcss-hero-patterns')` |
+| [fluid](https://github.com/bradlc/tailwindcss-fluid) | Fluid utilities for Tailwind CSS | `transform('tailwindcss-fluid')` |
+| [truncate-multiline](https://github.com/jhta/tailwindcss-truncate-multiline) | Generate truncate multiline utilities | `transform('tailwindcss-truncate-multiline')` |
+| [blend-mode](https://github.com/hacknug/tailwindcss-blend-mode) | Blend-mode utilities for Tailwind CSS. | `transform('tailwindcss-blend-mode')` |
+| [color-vars](https://github.com/n1kk/tailwind-color-vars) | Generate css vars '--color-name' for colors list. | `transform('tailwind-color-vars')` |
+| [triangle-after](https://github.com/chrisrowe/tailwindcss-triangle-after) | Generate css vars '--color-name' for colors list. | `transform('tailwindcss-triangle-after')` |
+| [gradients](https://github.com/benface/tailwindcss-gradients) | Generate gradient background utilities | `transform('tailwindcss-gradients')` |
+| [nord](https://github.com/crumb1e/tailwind-nord) | Enables the use of the Nord color palette. | `transform('tailwind-nord')` |
+| [border-gradients](https://github.com/cossssmin/tailwindcss-border-gradients) | Generate border image gradient utilities. | `transform('tailwindcss-border-gradients')` |
+| [elevation](https://github.com/jonaskay/tailwindcss-elevation) | Add Material Components elevation classes | `transform('tailwindcss-elevation')` |
+| [bootstrap-grid](https://github.com/karolis-sh/tailwind-bootstrap-grid) | Generates Bootstrap's flexbox grid | `transform('tailwind-bootstrap-grid')` |
