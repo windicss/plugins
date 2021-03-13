@@ -19,8 +19,7 @@
   },
   "homepage": "https://github.com/windicss/awesome-windicss#readme",
   "dependencies": {
-    "pirates": "^4.0.1",
-    "tailwindcss-border-gradients": "^2.0.3"
+    "pirates": "^4.0.1"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.8",
@@ -40,6 +39,8 @@
     "tailwind-nord": "^1.2.0",
     "tailwind-scrollbar": "^1.0.2",
     "tailwindcss-blend-mode": "^1.0.0",
+    "tailwindcss-border-gradients": "^2.0.3",
+    "tailwindcss-elevation": "^1.0.1",
     "tailwindcss-fluid": "^0.2.0",
     "tailwindcss-gradients": "^3.0.0",
     "tailwindcss-hero-patterns": "^0.0.1",

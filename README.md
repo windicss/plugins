@@ -58,3 +58,4 @@ module.exports = {
 | [tailwindcss-gradients](https://github.com/benface/tailwindcss-gradients) | generate gradient background utilities | `transform('tailwindcss-gradients')` |
 | [tailwind-nord](https://github.com/crumb1e/tailwind-nord) | enables the use of the Nord color palette. | `transform('tailwind-nord')` |
 | [tailwindcss-border-gradients](https://github.com/cossssmin/tailwindcss-border-gradients) | generate border image gradient utilities. | `transform('tailwindcss-border-gradients')` |
+| [tailwindcss-elevation](https://github.com/jonaskay/tailwindcss-elevation) | Add Material Components elevation classes | `transform('tailwindcss-elevation')` |

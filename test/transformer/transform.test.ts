@@ -146,3 +146,12 @@ it('tailwindcss-border-gradients', () => {
   });
   expect(processor.interpret('border-gradient-t-red border-gradient-tl-red').styleSheet.build()).toMatchSnapshot('css');
 })
+
+it('tailwindcss-elevation', () => {
+  const processor = new Processor({
+    plugins: [
+      transform('tailwindcss-elevation')([]),
+    ]
+  });
+  expect(processor.interpret('elevation-0 elevation-2 elevation-21').styleSheet.build()).toMatchSnapshot('css');
+})
