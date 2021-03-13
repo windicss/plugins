@@ -48,7 +48,7 @@ module.exports = {
 | [scrollbar](https://github.com/windicss/plugins/tree/main/packages/scrollbar) | Adds styling utilities for scrollbars in Firefox and webkit-based browsers. | `require('@windicss/plugin-scrollbar')` |
 | [question-mark](https://github.com/windicss/plugins/tree/main/packages/question-mark) | A plugin that provides a helpful ? dev time utility. | `require('@windicss/plugin-question-mark')` |
 | [heropatterns](https://github.com/windicss/plugins/tree/main/packages/heropatterns) | Streamlined integration between windicss and heropatterns.com | `require('@windicss/plugin-heropatterns')` |
-| [interaction-variants](https://github.com/windicss/plugins/tree/main/packages/interaction-variants) | add some missing interaction state variants | `require('@windicss/plugin-interaction-variants')` |
+| [interaction-variants](https://github.com/windicss/plugins/tree/main/packages/interaction-variants) | Add some missing interaction state variants | `require('@windicss/plugin-interaction-variants')` |
 | [hero-patterns](https://github.com/svengau/tailwindcss-hero-patterns) | A simple plugin to display [Hero Patterns](http://www.heropatterns.com/) | `transform('tailwindcss-hero-patterns')` |
 | [fluid](https://github.com/bradlc/tailwindcss-fluid) | Fluid utilities for Tailwind CSS | `transform('tailwindcss-fluid')` |
 | [truncate-multiline](https://github.com/jhta/tailwindcss-truncate-multiline) | Generate truncate multiline utilities | `transform('tailwindcss-truncate-multiline')` |
