@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-scrollbar",
+  "version": "1.2.3",
+  "description": "Tailwind plugin for styling scrollbars",
+  "author": "Graham Still <graham@gstill.dev>",
+  "main": "index.js",
+  "repository": "https://github.com/adoxography/tailwind-scrollbar",
+  "homepage": "https://github.com/adoxography/tailwind-scrollbar",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "lodash": "^4.17.20",
+    "postcss": "^8.2.4",
+    "snapshot-diff": "^0.8.1",
+    "tailwindcss": "^2.0.0"
+  }
+}

@@ -1,5 +1,3 @@
-dependencies:
-  pirates: 4.0.1
 devDependencies:
   '@types/fs-extra': 9.0.8
   '@types/jasmine': 3.6.4
@@ -537,6 +535,7 @@ packages:
     resolution:
       integrity: sha512-Yt3384If5H6BYGVHiHwTL+99OzJKHhgp82S8/dktEK73T26BazdgZ4JZh92xSVtGNJvz9UbXdNAc5hcrXV42vw==
   /node-modules-regexp/1.0.0:
+    dev: true
     engines:
       node: '>=0.10.0'
     resolution:
@@ -596,6 +595,7 @@ packages:
   /pirates/4.0.1:
     dependencies:
       node-modules-regexp: 1.0.0
+    dev: true
     engines:
       node: '>= 6'
     resolution:
@@ -957,7 +957,6 @@ specifiers:
   jasmine: ^3.6.4
   jasmine-spec-reporter: ^6.0.0
   js-yaml: ^4.0.0
-  pirates: ^4.0.1
   sucrase: ^3.17.1
   tailwind-bootstrap-grid: ^3.3.0
   tailwind-color-vars: ^0.1.3

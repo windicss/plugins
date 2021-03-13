@@ -18,9 +18,6 @@
     "url": "https://github.com/windicss/awesome-windicss/issues"
   },
   "homepage": "https://github.com/windicss/awesome-windicss#readme",
-  "dependencies": {
-    "pirates": "^4.0.1"
-  },
   "devDependencies": {
     "@types/fs-extra": "^9.0.8",
     "@types/jasmine": "^3.6.4",

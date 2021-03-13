@@ -1,10 +1,10 @@
 import { Processor } from 'windicss/lib';
 
 describe('modules', () => {
-  it('tailwind-scrollbar', () => {
+  it('plugin-scrollbar', () => {
     const processor = new Processor({
       plugins: [
-        require('../../packages/tailwind-scrollbar'),
+        require('../../packages/scrollbar'),
       ]
     });
     expect(processor.preflight(undefined, false, false, true).build()).toMatchSnapshot("preflight");
@@ -12,11 +12,10 @@ describe('modules', () => {
   });
 
 
-  it('tailwindcss-animate', () => {
-
+  it('plugin-animations', () => {
     const processor = new Processor({
       plugins: [
-        require('../../packages/tailwindcss-animate.css')({
+        require('../../packages/animations')({
           settings: {
             animatedSpeed: 1000,
             heartBeatSpeed: 1000,
@@ -31,19 +30,19 @@ describe('modules', () => {
     expect(processor.interpret('animate-fadeIn animate-ping animate-delay-2s animate-shakeY animate-animated').styleSheet.build()).toMatchSnapshot('css');
   });
 
-  it('tailwindcss-question-mark', () => {
+  it('plugin-question-mark', () => {
     const processor = new Processor({
       plugins: [
-        require('../../packages/tailwindcss-question-mark'),
+        require('../../packages/question-mark'),
       ]
     });
     expect(processor.interpret('? bg-white').styleSheet.build()).toMatchSnapshot('css');
   });
 
-  it('tailwind-heropatterns', () => {
+  it('plugin-heropatterns', () => {
     const processor = new Processor({
       plugins: [
-        require('../../packages/tailwind-heropatterns')({
+        require('../../packages/heropatterns')({
           // as per tailwind docs you can pass variants
           variants: [],
         
@@ -69,10 +68,10 @@ describe('modules', () => {
     expect(processor.interpret('bg-hero-polka-dots-100 bg-hero-signal bg-hero-polka-dots-blue-dark-100').styleSheet.build()).toMatchSnapshot('css');
   });
 
-  it('tailwindcss-interaction-variants', () => {
+  it('plugin-interaction-variants', () => {
     const processor = new Processor({
       plugins: [
-        require('../../packages/tailwindcss-interaction-variants')
+        require('../../packages/interaction-variants')
       ]
     });
     expect(processor.interpret('bg-black group-focus-within:bg-black group-focus-visible:bg-black group-active:bg-black group-visited:bg-black group-disabled:bg-black hocus:bg-black group-hocus:bg-black can-hover:bg-black no-hover:bg-black').styleSheet.build()).toMatchSnapshot('css');
