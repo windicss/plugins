@@ -126,6 +126,51 @@ transform / tailwindcss-animate / css / 0: |-
     animation-duration: 1000ms;
     animation-fill-mode: both;
   }
+transform / tailwindcss-interaction-variants / css / 0: |-
+  .bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+  }
+  .group:focus-within .group-focus-within\:bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+  }
+  .group:focus-visible .group-focus-visible\:bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+  }
+  .group:active .group-active\:bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+  }
+  .group:visited .group-visited\:bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+  }
+  .group:disabled .group-disabled\:bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+  }
+  .hocus\:bg-black:hover, .hocus\:bg-black:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+  }
+  .group:hover .group-hocus\:bg-black, .group:focus .group-hocus\:bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+  }
+  @media (hover: hover) {
+    .can-hover\:bg-black {
+      --tw-bg-opacity: 1;
+      background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+    }
+  }
+  @media (hover: none) {
+    .no-hover\:bg-black {
+      --tw-bg-opacity: 1;
+      background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+    }
+  }
 transform / tailwindcss-question-mark / css / 0: |-
   @keyframes question {
     0% {

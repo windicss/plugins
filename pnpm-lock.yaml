@@ -19,6 +19,7 @@ devDependencies:
   tailwind-scrollbar: 1.0.2
   tailwindcss-blend-mode: 1.0.0
   tailwindcss-fluid: 0.2.0
+  tailwindcss-gap: 7.0.0
   tailwindcss-hero-patterns: 0.0.1
   tailwindcss-triangle-after: 1.2.0
   tailwindcss-truncate-multiline: 1.0.3
@@ -751,6 +752,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-xaxvJp4/0/GGhF/nO4tn6v2Wb0LL/8Bo+O0G45FjuEsl+7m4Rrz/J+xbCoglHbGBFhl1XWGgyTjRZCY+UdLtuw==
+  /tailwindcss-gap/7.0.0:
+    dependencies:
+      lodash: 4.17.21
+      postcss-value-parser: 4.1.0
+    dev: true
+    resolution:
+      integrity: sha512-uqPfm/zM1z8KAAdtUQI26yUuyligtNGpEtGsFPYZSdvfbOsUucvDQsC2hCAxMgJXkNYm/r3lqflojsmYJnzP8g==
   /tailwindcss-hero-patterns/0.0.1:
     dependencies:
       autoprefixer: 9.8.6
@@ -889,6 +897,7 @@ specifiers:
   tailwind-scrollbar: ^1.0.2
   tailwindcss-blend-mode: ^1.0.0
   tailwindcss-fluid: ^0.2.0
+  tailwindcss-gap: ^7.0.0
   tailwindcss-hero-patterns: ^0.0.1
   tailwindcss-triangle-after: ^1.2.0
   tailwindcss-truncate-multiline: ^1.0.3

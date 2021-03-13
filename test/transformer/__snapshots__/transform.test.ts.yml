@@ -3,6 +3,7 @@ transform / tailwind-color-vars / css / 0: |-
     --primary: rgba(0, 80, 200, 0.7);
     --black: black;
   }
+transform / tailwind-nord / css / 0: ''
 transform / tailwindcss-blend-mode / css / 0: |-
   .blend-normal {
     mix-blend-mode: normal;

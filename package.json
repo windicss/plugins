@@ -40,6 +40,7 @@
     "tailwind-scrollbar": "^1.0.2",
     "tailwindcss-blend-mode": "^1.0.0",
     "tailwindcss-fluid": "^0.2.0",
+    "tailwindcss-gap": "^7.0.0",
     "tailwindcss-hero-patterns": "^0.0.1",
     "tailwindcss-triangle-after": "^1.2.0",
     "tailwindcss-truncate-multiline": "^1.0.3",

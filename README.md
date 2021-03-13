@@ -54,3 +54,4 @@ module.exports = {
 | [tailwind-heropatterns](https://github.com/AndreaMinato/tailwind-heropatterns) | Streamlined integration between tailwindcss and heropatterns.com | `require('@windicss/plugin-heropatterns')` |
 | [tailwind-color-vars](https://github.com/n1kk/tailwind-color-vars) | Tailwind plugin to generate css vars '--color-name' for colors list. | `transform('tailwind-color-vars')` |
 | [tailwindcss-triangle-after](https://github.com/chrisrowe/tailwindcss-triangle-after) | Tailwind plugin to generate css vars '--color-name' for colors list. | `transform('tailwindcss-triangle-after')` |
+| [tailwindcss-interaction-variants](https://github.com/benface/tailwindcss-interaction-variants) | add some missing interaction state variants | `require('@windicss/plugin-interaction-variants')` |

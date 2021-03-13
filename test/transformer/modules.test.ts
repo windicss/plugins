@@ -67,5 +67,14 @@ describe('modules', () => {
       ]
     });
     expect(processor.interpret('bg-hero-polka-dots-100 bg-hero-signal bg-hero-polka-dots-blue-dark-100').styleSheet.build()).toMatchSnapshot('css');
-  })
+  });
+
+  it('tailwindcss-interaction-variants', () => {
+    const processor = new Processor({
+      plugins: [
+        require('../../packages/tailwindcss-interaction-variants')
+      ]
+    });
+    expect(processor.interpret('bg-black group-focus-within:bg-black group-focus-visible:bg-black group-active:bg-black group-visited:bg-black group-disabled:bg-black hocus:bg-black group-hocus:bg-black can-hover:bg-black no-hover:bg-black').styleSheet.build()).toMatchSnapshot('css');
+  });
 })
