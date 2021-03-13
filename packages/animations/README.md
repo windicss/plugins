@@ -1,14 +1,5 @@
-<p align="left">
-  <a href="https://github.com/bentzibentz/tailwindcss-animate.css/releases" target="_blank"><img alt="GitHub release" src="https://img.shields.io/github/v/release/bentzibentz/tailwindcss-animate.css?include_prereleases&style=flat-square"></a>
-  <a href="https://npmjs.com/package/tailwindcss-animatecss" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/tailwindcss-animatecss?style=flat-square"></a>
-  <a href="https://npmjs.com/package/tailwindcss-animatecss" target="_blank"><img alt="npm" src="https://img.shields.io/npm/dt/tailwindcss-animatecss?style=flat-square"></a>
-  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/tailwindcss-animatecss?style=flat-square">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/bentzibentz/tailwindcss-animate.css?style=flat-square">
-  <img alt="License" src=" https://img.shields.io/github/license/bentzibentz/tailwindcss-animate.css">
-</p>
-
-# Animate CSS - Tailwind CSS Plugin
-Add [Animate CSS](https://github.com/animate-css/animate.css) as [Tailwind CSS](https://github.com/tailwindcss/tailwindcss) plugin to your project.
+# Windi CSS Animations
+Add [Animate CSS](https://github.com/animate-css/animate.css) as [Windi CSS](https://github.com/windicss/windicss) plugin to your project. This plugin is modified based on [tailwind-animate.css](https://github.com/bentzibentz/tailwindcss-animate.css) to adapt to Windi CSS.
 
 ## Installation
 
@@ -18,10 +9,9 @@ npm install --save-dev @windicss/animations
 
 ## Usage
 
-Add Tailwind CSS to your project as described [here](https://tailwindcss.com/docs/installation).
-Install tailwindcss plugin as described above and add it to your tailwind.config.js file. 
-
 ```js
+// tailwind.config.js
+
 plugins: [
   // Other plugins
   require('@windicss/animations')({
@@ -153,9 +143,6 @@ plugins: [
 ## Credits
 
 This package is based on awesome [Animate.css](https://github.com/animate-css/animate.css).
-
-## More Tailwind CSS Plugins
-[tailwindcss-absolute-center](https://github.com/bentzibentz/tailwindcss-absolute-center)
 
 ## License
 
