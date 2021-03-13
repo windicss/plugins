@@ -3,7 +3,15 @@ transform / tailwind-color-vars / css / 0: |-
     --primary: rgba(0, 80, 200, 0.7);
     --black: black;
   }
-transform / tailwind-nord / css / 0: ''
+transform / tailwind-nord / css / 0: |-
+  .bg-nord0 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(46, 52, 64, var(--tw-bg-opacity));
+  }
+  .text-nord6 {
+    --tw-text-opacity: 1;
+    color: rgba(236, 239, 244, var(--tw-text-opacity));
+  }
 transform / tailwindcss-blend-mode / css / 0: |-
   .blend-normal {
     mix-blend-mode: normal;
@@ -16,6 +24,13 @@ transform / tailwindcss-blend-mode / css / 0: |-
   }
   .isolation-auto {
     isolation: auto;
+  }
+transform / tailwindcss-border-gradients / css / 0: |-
+  .border-gradient-t-red {
+    border-image: linear-gradient(to top, rgba(255, 0, 0, 0), #f00) 1;
+  }
+  .border-gradient-tl-red {
+    border-image: linear-gradient(to top left, rgba(255, 0, 0, 0), #f00) 1;
   }
 transform / tailwindcss-fluid / css / 0: |-
   .text-sm-fluid {

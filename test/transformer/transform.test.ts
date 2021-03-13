@@ -60,7 +60,6 @@ it("tailwindcss-blend-mode", () => {
   expect(processor.interpret('blend-normal blend-screen bg-blend-difference isolation-auto').styleSheet.build()).toMatchSnapshot('css');
 })
 
-// need to support add config on colors
 it('tailwind-nord', () => {
   const processor = new Processor({
     plugins: [
@@ -131,3 +130,19 @@ it('tailwindcss-gradients', () => {
   });
   expect(processor.interpret('bg-gradient-tl-red bg-radial-br-red bg-conic-tr-red').styleSheet.build()).toMatchSnapshot('css');
 });
+
+it('tailwindcss-border-gradients', () => {
+  const processor = new Processor({
+    theme: {
+      linearBorderGradients: {
+        colors: {
+          'red': '#f00',
+        },
+      },
+    },
+    plugins: [
+      transform('tailwindcss-border-gradients')(),
+    ],
+  });
+  expect(processor.interpret('border-gradient-t-red border-gradient-tl-red').styleSheet.build()).toMatchSnapshot('css');
+})

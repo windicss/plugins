@@ -56,3 +56,5 @@ module.exports = {
 | [tailwindcss-triangle-after](https://github.com/chrisrowe/tailwindcss-triangle-after) | Tailwind plugin to generate css vars '--color-name' for colors list. | `transform('tailwindcss-triangle-after')` |
 | [tailwindcss-interaction-variants](https://github.com/benface/tailwindcss-interaction-variants) | add some missing interaction state variants | `require('@windicss/plugin-interaction-variants')` |
 | [tailwindcss-gradients](https://github.com/benface/tailwindcss-gradients) | generate gradient background utilities | `transform('tailwindcss-gradients')` |
+| [tailwind-nord](https://github.com/crumb1e/tailwind-nord) | enables the use of the Nord color palette. | `transform('tailwind-nord')` |
+| [tailwindcss-border-gradients](https://github.com/cossssmin/tailwindcss-border-gradients) | generate border image gradient utilities. | `transform('tailwindcss-border-gradients')` |
