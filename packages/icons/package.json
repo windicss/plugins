@@ -1,0 +1,15 @@
+{
+  "name": "@windicss/plugin-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Veritas Raven",
+  "license": "MIT",
+  "devDependencies": {
+    "windicss": "^3.0.12"
+  }
+}
