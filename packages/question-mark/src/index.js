@@ -13,5 +13,9 @@ module.exports = function({ addDynamic }) {
         'animation': `question 0.5s ease-in-out alternate infinite`
       }));
     }
+  }, {
+    layer: "utilities",
+    group: "question",
+    completions: [ '?' ]
   })
 };

@@ -494,6 +494,8 @@ module.exports = plugin.withOptions(function ({
       };
     }, {
       layer: "utilities",
+      group: "animations",
+      completions: Object.keys(fallbackUtilities).map(i => `animate-${i}`)
     });
   };
 });

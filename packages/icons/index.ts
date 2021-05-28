@@ -17,6 +17,8 @@ export default plugin(({ addDynamic }) => {
       return new CSSParser((icons as {[key:string]: string})[body]).parse().children;
     }
   }, {
+    group: 'icons',
+    completions: Object.keys(sizes).concat(Object.keys(icons)).map(i => `icon-${i}`),
     respectSelector: true,
   });
 });

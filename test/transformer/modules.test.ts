@@ -85,4 +85,15 @@ describe('modules', () => {
     });
     expect(processor.interpret('icon-abstract icon-boy icon-spinner-alt icon-sm icon-lg icon-xl').styleSheet.build()).toMatchSnapshot('icons');
   });
+
+  it('plugin icons completions', () => {
+    const processor = new Processor({
+      plugins: [
+        require('../../packages/animations'),
+        require('../../packages/question-mark'),
+        require('../../packages/icons')
+      ]
+    });
+    expect(processor._plugin.completions).toMatchSnapshot('completions');
+  });
 })
