@@ -1,6 +1,6 @@
 {
   "name": "@windicss/plugin-animations",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Add Animate CSS as Windi CSS plugin to your project.",
   "main": "index.js",
   "repository": {
