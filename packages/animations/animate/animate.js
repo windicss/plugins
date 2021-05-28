@@ -487,11 +487,13 @@ module.exports = plugin.withOptions(function ({
 
     addDynamic("animate", ({ Utility, Style, Keyframes }) => {
       if (Object.keys(fallbackUtilities).includes(Utility.body)) {
-          const value = fallbackUtilities[Utility.body];
-          let output = Style.generate(Utility.class, value);
-          if (value.animationName) output = output.concat(Keyframes.generate(value.animationName, fallbackKeyframes[value.animationName]));
-          return output;
+        const value = fallbackUtilities[Utility.body];
+        let output = Style.generate(Utility.class, value);
+        if (value.animationName) output = Keyframes.generate(value.animationName, fallbackKeyframes[value.animationName]).concat(output);
+        return output;
       };
+    }, {
+      layer: "utilities",
     });
   };
 });
