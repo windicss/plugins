@@ -76,4 +76,13 @@ describe('modules', () => {
     });
     expect(processor.interpret('bg-black group-focus-within:bg-black group-focus-visible:bg-black group-active:bg-black group-visited:bg-black group-disabled:bg-black hocus:bg-black group-hocus:bg-black can-hover:bg-black no-hover:bg-black').styleSheet.build()).toMatchSnapshot('css');
   });
+
+  it('plugin icons', () => {
+    const processor = new Processor({
+      plugins: [
+        require('../../packages/icons')
+      ]
+    });
+    expect(processor.interpret('icon-abstract icon-spinner-alt').styleSheet.build()).toMatchSnapshot('icons');
+  });
 })
