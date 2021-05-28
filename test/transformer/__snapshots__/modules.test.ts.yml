@@ -1,20 +1,43 @@
+transform / plugin icons / icons / 0: |-
+  .icon-abstract {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 14px;
+    height: 14px;
+    transform: scale(var(--tw-icon,1));
+    border-right: 3px solid;
+    border-top: 3px solid;
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 0;
+    bottom: 0;
+    border: 3px solid;
+    border-radius: 12px;
+  }
+  @keyframes spinneralt {
+    .icon-spinner-alt {
+      transform: rotate(0deg);
+      transform: rotate(359deg);
+    }
+  }
+  .icon-spinner-alt {
+    transform: scale(var(--tw-icon,1));
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    position: absolute;
+    border-radius: 100px;
+    animation: spinneralt 1s cubic-bezier(.6,0,.4,1) infinite;
+    border: 3px solid transparent;
+    border-top-color: currentColor;
+  }
 transform / plugin-animations / css / 0: |-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  @-webkit-keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
   @keyframes ping {
     0% {
       -webkit-transform: scale(1);
@@ -38,6 +61,32 @@ transform / plugin-animations / css / 0: |-
       transform: scale(2);
       opacity: 0;
     }
+  }
+  .animate-ping {
+    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .animate-fadeIn {
+    animation-name: fadeIn;
+  }
+  .animate-delay-2s {
+    animation-delay: 2000ms;
   }
   @keyframes shakeY {
     from, to {
@@ -66,16 +115,6 @@ transform / plugin-animations / css / 0: |-
       -webkit-transform: translate3d(0, 10px, 0);
       transform: translate3d(0, 10px, 0);
     }
-  }
-  .animate-ping {
-    -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-  }
-  .animate-fadeIn {
-    animation-name: fadeIn;
-  }
-  .animate-delay-2s {
-    animation-delay: 2000ms;
   }
   .animate-shakeY {
     animation-name: shakeY;
@@ -140,6 +179,10 @@ transform / plugin-interaction-variants / css / 0: |-
     }
   }
 transform / plugin-question-mark / css / 0: |-
+  .bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  }
   @keyframes question {
     0% {
       box-shadow: inset 4px 4px rgb(236, 15, 170), inset -4px -4px rgb(236, 15, 170);
@@ -155,10 +198,6 @@ transform / plugin-question-mark / css / 0: |-
     100% {
       box-shadow: inset 8px 8px rgb(236, 15, 170), inset -8px -8px rgb(236, 15, 170);
     }
-  }
-  .bg-white {
-    --tw-bg-opacity: 1;
-    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
   }
   .\? {
     -webkit-animation: question 0.5s ease-in-out alternate infinite;

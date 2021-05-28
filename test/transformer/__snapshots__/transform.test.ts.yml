@@ -1,17 +1,4 @@
 transform / tailwind-bootstrap-grid / css / 0: |-
-  .container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
-  }
   .col {
     position: relative;
     width: 100%;
@@ -26,6 +13,13 @@ transform / tailwind-bootstrap-grid / css / 0: |-
     padding-left: 15px;
     flex: 0 0 50%;
     max-width: 50%;
+  }
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   @screen sm {
     .container {
@@ -78,11 +72,11 @@ transform / tailwindcss-blend-mode / css / 0: |-
   .blend-screen {
     mix-blend-mode: screen;
   }
-  .bg-blend-difference {
-    background-blend-mode: difference;
-  }
   .isolation-auto {
     isolation: auto;
+  }
+  .bg-blend-difference {
+    background-blend-mode: difference;
   }
 transform / tailwindcss-border-gradients / css / 0: |-
   .border-gradient-t-red {
