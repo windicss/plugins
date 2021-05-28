@@ -16,5 +16,7 @@ export default plugin(({ addDynamic }) => {
     if (body in icons) {
       return new CSSParser((icons as {[key:string]: string})[body]).parse().children;
     }
+  }, {
+    respectSelector: true,
   });
 });

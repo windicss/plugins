@@ -83,6 +83,6 @@ describe('modules', () => {
         require('../../packages/icons')
       ]
     });
-    expect(processor.interpret('icon-abstract icon-spinner-alt icon-sm icon-lg icon-xl').styleSheet.build()).toMatchSnapshot('icons');
+    expect(processor.interpret('icon-abstract icon-boy icon-spinner-alt icon-sm icon-lg icon-xl').styleSheet.build()).toMatchSnapshot('icons');
   });
 })
