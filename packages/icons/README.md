@@ -18,6 +18,13 @@ plugins: [
 ]
 ```
 
+### Define icon size
+
+* .icon-sm
+* .icon-md
+* .icon-lg
+* .icon-xl
+
 ### Available Icons Classes
 
 * .icon-abstract

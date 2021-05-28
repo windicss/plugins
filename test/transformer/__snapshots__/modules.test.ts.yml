@@ -37,6 +37,15 @@ transform / plugin icons / icons / 0: |-
     border: 3px solid transparent;
     border-top-color: currentColor;
   }
+  .icon-sm {
+    --tw-icon: 1;
+  }
+  .icon-lg {
+    --tw-icon: 2;
+  }
+  .icon-xl {
+    --tw-icon: 2.5;
+  }
 transform / plugin-animations / css / 0: |-
   @keyframes ping {
     0% {

@@ -44,6 +44,7 @@ module.exports = {
 
 | Plugin                    | Description                                                  | Support       |
 | :------------------------ | :----------------------------------------------------------- | :------------ |
+| [icons](https://github.com/windicss/plugins/tree/main/packages/icons) | Generate on-demands icon library for windicss. | `require('@windicss/plugin-icons')` |
 | [animations](https://github.com/windicss/plugins/tree/main/packages/animations) | [Animate CSS](https://github.com/animate-css/animate.css) plugin | `require('@windicss/plugin-animations')` |
 | [scrollbar](https://github.com/windicss/plugins/tree/main/packages/scrollbar) | Adds styling utilities for scrollbars in Firefox and webkit-based browsers. | `require('@windicss/plugin-scrollbar')` |
 | [question-mark](https://github.com/windicss/plugins/tree/main/packages/question-mark) | A plugin that provides a helpful ? dev time utility. | `require('@windicss/plugin-question-mark')` |
