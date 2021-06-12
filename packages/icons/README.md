@@ -5,7 +5,7 @@ Generate on-demands icon library for [windicss](https://windicss.org/), powered 
 ## Installation
 
 ```bash
-npm install --save-dev @windicss/icons
+npm install --save-dev @windicss/plugin-icons
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ npm install --save-dev @windicss/icons
 // windi.config.js
 
 plugins: [
-  require('@windicss/icons'),
+  require('@windicss/plugin-icons'),
 ]
 ```
 
