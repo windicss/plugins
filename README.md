@@ -55,7 +55,7 @@ module.exports = {
 | [truncate-multiline](https://github.com/jhta/tailwindcss-truncate-multiline) | Generate truncate multiline utilities | `transform('tailwindcss-truncate-multiline')` |
 | [blend-mode](https://github.com/hacknug/tailwindcss-blend-mode) | Blend-mode utilities for Tailwind CSS. | `transform('tailwindcss-blend-mode')` |
 | [color-vars](https://github.com/n1kk/tailwind-color-vars) | Generate css vars '--color-name' for colors list. | `transform('tailwind-color-vars')` |
-| [triangle-after](https://github.com/chrisrowe/tailwindcss-triangle-after) | Generate css vars '--color-name' for colors list. | `transform('tailwindcss-triangle-after')` |
+| [triangle-after](https://github.com/chrisrowe/tailwindcss-triangle-after) | Generate styles for CSS based triangles. | `transform('tailwindcss-triangle-after')` |
 | [gradients](https://github.com/benface/tailwindcss-gradients) | Generate gradient background utilities | `transform('tailwindcss-gradients')` |
 | [nord](https://github.com/crumb1e/tailwind-nord) | Enables the use of the Nord color palette. | `transform('tailwind-nord')` |
 | [border-gradients](https://github.com/cossssmin/tailwindcss-border-gradients) | Generate border image gradient utilities. | `transform('tailwindcss-border-gradients')` |
